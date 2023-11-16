@@ -1,0 +1,44 @@
+{
+  "name": "@pokedex/components",
+  "version": "0.0.0",
+  "description": "Now I’m the model of a modern major general / The venerated Virginian veteran whose men are all / Lining up, to put me up on a pedestal / Writin’ letters to relatives / Embellishin’ my elegance and eloquence / But the elephant is in the room / The truth is in ya face when ya hear the British cannons go / BOOM",
+  "keywords": [],
+  "author": "Ashutosh <ashu.singh212@gmail.com>",
+  "license": "ISC",
+  "main": "dist/cjs/index.js",
+  "typings": "dist/cjs/index.d.ts",
+  "module": "dist/esm/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erashu212/pokedex.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/components.test.js",
+    "build": "tsc -b tsconfig.json && tsc -b tsconfig.esm.json"
+  },
+  "bugs": {
+    "url": "https://github.com/erashu212/pokedex/issues"
+  },
+  "homepage": "https://github.com/erashu212/pokedex#readme",
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.14.18",
+    "@mui/x-data-grid": "^6.18.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/prop-types": "^15.7.10"
+  }
+}
