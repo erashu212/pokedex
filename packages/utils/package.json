@@ -1,5 +1,5 @@
 {
-  "name": "@pokedex/utils",
+  "name": "pokedex-utils",
   "version": "1.2.0",
   "description": "",
   "keywords": [],
@@ -32,5 +32,5 @@
     "url": "https://github.com/erashu212/pokedex/issues"
   },
   "homepage": "https://github.com/erashu212/pokedex#readme",
-  "gitHead": "fe3b2cac9c95fe0d631a7fec4ec3931ac8b244d0"
+  "gitHead": "0eaf40ae946367f671731c5a83d5628daaecdc4e"
 }
