@@ -11,7 +11,7 @@ import {
   TabType,
   Chip,
   ChipProps,
-} from "components";
+} from "@pokedex/components";
 
 type BaseMetric = {
   name: string;

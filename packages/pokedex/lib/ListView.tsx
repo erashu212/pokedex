@@ -4,7 +4,7 @@ import {
   Gravatar,
   GridColDef,
   DataGridProps,
-} from "components";
+} from "@pokedex/components";
 
 export type ListViewProps = DataGridProps
 
