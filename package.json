@@ -5,7 +5,10 @@
     "packages/*"
   ],
   "scripts": {
-    "sb": "storybook dev -p 6006 -c .storybook"
+    "presb": "npm run build",
+    "sb": "storybook dev -p 6006 -c .storybook",
+    "bootstrap": "lerna exec npm install",
+    "build": "lerna run build --stream"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.23.3",
