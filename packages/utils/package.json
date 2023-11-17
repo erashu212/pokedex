@@ -32,5 +32,9 @@
     "url": "https://github.com/erashu212/pokedex/issues"
   },
   "homepage": "https://github.com/erashu212/pokedex#readme",
-  "gitHead": "5c5f1bac0299592e291f34382c8aa08856386125"
+  "gitHead": "5c5f1bac0299592e291f34382c8aa08856386125",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "lodash": "^4.17.21"
+  }
 }

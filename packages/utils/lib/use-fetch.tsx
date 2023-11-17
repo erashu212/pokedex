@@ -1,11 +1,13 @@
 import * as React from "react";
+import { getHttpClient } from "./http-client-service";
 
-interface FetchResult<T> {
+interface HttpResult<T> {
   data: T | null;
   loading: boolean;
   error: string | null;
 }
-interface FetchOptions {
+
+interface HttpOptions {
   method?: string;
   headers?: Record<string, string>;
   body?: string;
@@ -13,8 +15,10 @@ interface FetchOptions {
 
 const useFetch = <T extends object = {}>(
   url: string,
-  options?: FetchOptions
-): FetchResult<T> => {
+  options?: HttpOptions
+): HttpResult<T> => {
+  const axiosInstance = getHttpClient("");
+
   const [data, setData] = React.useState<T | null>(null);
   const [loading, setLoading] = React.useState<boolean>(true);
   const [error, setError] = React.useState<string | null>(null);
@@ -22,27 +26,23 @@ const useFetch = <T extends object = {}>(
   React.useEffect(() => {
     const fetchData = async (): Promise<void> => {
       try {
-        const response = await fetch(url, {
+        const response = await axiosInstance({
           method: options?.method || "GET",
+          url,
           headers: options?.headers || {},
-          body: options?.body,
+          data: options?.body,
         });
 
-        if (!response.ok) {
-          throw new Error(`HTTP error! Status: ${response.status}`);
-        }
-
-        const result = await response.json();
-        setData(result);
+        setData(response.data);
       } catch (error) {
-        setError((error as unknown as Error).message);
+        setError((error as Error).message);
       } finally {
         setLoading(false);
       }
     };
 
     fetchData();
-  }, [url]);
+  }, [axiosInstance, url, options]);
 
   return { data, loading, error };
 };

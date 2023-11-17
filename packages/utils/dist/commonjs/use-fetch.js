@@ -24,23 +24,22 @@ var __importStar = (this && this.__importStar) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const React = __importStar(require("react"));
+const http_client_service_1 = require("./http-client-service");
 const useFetch = (url, options) => {
+    const axiosInstance = (0, http_client_service_1.getHttpClient)("");
     const [data, setData] = React.useState(null);
     const [loading, setLoading] = React.useState(true);
     const [error, setError] = React.useState(null);
     React.useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await fetch(url, {
+                const response = await axiosInstance({
                     method: options?.method || "GET",
+                    url,
                     headers: options?.headers || {},
-                    body: options?.body,
+                    data: options?.body,
                 });
-                if (!response.ok) {
-                    throw new Error(`HTTP error! Status: ${response.status}`);
-                }
-                const result = await response.json();
-                setData(result);
+                setData(response.data);
             }
             catch (error) {
                 setError(error.message);
@@ -50,7 +49,7 @@ const useFetch = (url, options) => {
             }
         };
         fetchData();
-    }, [url]);
+    }, [axiosInstance, url, options]);
     return { data, loading, error };
 };
 exports.default = useFetch;

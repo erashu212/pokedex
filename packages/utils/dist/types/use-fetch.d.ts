@@ -1,13 +1,13 @@
-interface FetchResult<T> {
+interface HttpResult<T> {
     data: T | null;
     loading: boolean;
     error: string | null;
 }
-interface FetchOptions {
+interface HttpOptions {
     method?: string;
     headers?: Record<string, string>;
     body?: string;
 }
-declare const useFetch: <T extends object = {}>(url: string, options?: FetchOptions) => FetchResult<T>;
+declare const useFetch: <T extends object = {}>(url: string, options?: HttpOptions) => HttpResult<T>;
 export default useFetch;
 //# sourceMappingURL=use-fetch.d.ts.map
