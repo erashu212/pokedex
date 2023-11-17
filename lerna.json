@@ -3,26 +3,11 @@
   "packages": ["packages/*"],
   "version": "independent",
   "npmClient": "npm",
+  "forcePublish": true,
   "command": {
     "version": {
       "allowBranch": "main",
       "conventionalCommits": true
-    },
-    "publish": {
-      "directory": "{workspaceRoot}/dist/{projectRoot}",
-      "assets": [
-        "README.md",
-        "package.json",
-        "docs/*.md",
-        {
-          "from": "static/images/*",
-          "to": "assets"
-        },
-        {
-          "from": "../../CONTRIBUTING.md",
-          "to": "./"
-        }
-      ]
     }
   }
 }

@@ -1,5 +1,5 @@
 {
-  "name": "components",
+  "name": "@pokedex/components",
   "version": "1.1.1",
   "description": "",
   "keywords": [],
@@ -43,5 +43,5 @@
   "devDependencies": {
     "@types/prop-types": "^15.7.10"
   },
-  "gitHead": "8c4417a9beb5aaf101b8f8f94d4732526eeeb72a"
+  "gitHead": "fe3b2cac9c95fe0d631a7fec4ec3931ac8b244d0"
 }
