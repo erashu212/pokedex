@@ -1,6 +1,6 @@
 import { dirname, join } from "path";
 module.exports = {
-  stories: ['../packages/**/lib/**/*.stories.@(ts|tsx)'],
+  stories: ['../packages/pokedex/stories/**/*.stories.@(ts|tsx)'],
   addons: [getAbsolutePath("@storybook/addon-essentials")],
 
   framework: {

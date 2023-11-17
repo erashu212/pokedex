@@ -3,7 +3,8 @@ import {
   DataGrid as MuiDataGrid,
   GridSlotsComponentsProps,
   DataGridProps,
-  GridColDef
+  GridColDef,
+  GridRenderCellParams
 } from "@mui/x-data-grid";
 import { Box } from "@mui/material";
 
@@ -14,4 +15,4 @@ const DataGrid: React.FC<DataGridProps> = (props) => {
     </Box>
   );
 };
-export { DataGrid, DataGridProps, GridColDef };
+export { DataGrid, DataGridProps, GridColDef, GridRenderCellParams };

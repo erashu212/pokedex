@@ -1,16 +1,17 @@
 import * as React from "react";
-import { DataGrid } from "@pokedex/components";
+import {
+  DataGrid,
+  Gravatar,
+  GridColDef,
+  DataGridProps,
+} from "@pokedex/components";
 
-type ListViewProps = {
-  items: ReadonlyArray<{ name: string; url: string }>;
-  onItemSelection: (url: string) => void;
-};
+export type ListViewProps = DataGridProps
 
-const columns = [{
-    field: "name",
-    headerName : "Name"
-}];
-
-export const ListView = () => {
-  return <DataGrid columns={columns} />;
+export const ListView: React.FC<ListViewProps> = (props) => {
+  return (
+    <DataGrid
+      {...props}
+    />
+  );
 };

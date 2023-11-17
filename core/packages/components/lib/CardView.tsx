@@ -8,7 +8,7 @@ import Typography from "@mui/material/Typography";
 type CardViewProps = {
   imageUrl: string;
   title: string;
-  description?: string;
+  description?: React.ReactNode;
   onClick?: () => void;
 };
 
@@ -19,16 +19,20 @@ export const CardView: React.FC<CardViewProps> = ({
   onClick,
 }) => {
   return (
-    <Card sx={{ maxWidth: 345 }}>
+    <Card elevation={3}>
       <CardActionArea onClick={onClick}>
-        <CardMedia component="img" alt={title} height="140" image={imageUrl} />
+        <CardMedia
+          sx={{ objectFit: "contain" }}
+          component="img"
+          alt={title}
+          height={150}
+          image={imageUrl}
+        />
         <CardContent>
-          <Typography gutterBottom variant="h5" component="div">
+          <Typography gutterBottom variant="h5" component="p">
             {title}
           </Typography>
-          <Typography variant="body2" color="text.secondary">
-            {description}
-          </Typography>
+          {description}
         </CardContent>
       </CardActionArea>
     </Card>

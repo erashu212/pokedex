@@ -23,7 +23,7 @@
   },
   "scripts": {
     "test": "node ./__tests__/pokedex.test.js",
-    "build": "tsc -m commonjs && tsc -m esm"
+    "build": "tsc -b tsconfig.json && tsc -b tsconfig.esm.json"
   },
   "bugs": {
     "url": "https://github.com/erashu212/pokedex/issues"
