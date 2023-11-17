@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.9](https://github.com/erashu212/pokedex/compare/@pokedex/pokedex@1.2.8...@pokedex/pokedex@1.2.9) (2023-11-17)
+
+**Note:** Version bump only for package @pokedex/pokedex
+
+
+
+
+
 ## [1.2.8](https://github.com/erashu212/pokedex/compare/@pokedex/pokedex@1.2.7...@pokedex/pokedex@1.2.8) (2023-11-17)
 
 

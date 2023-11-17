@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.8](https://github.com/erashu212/pokedex/compare/@pokedex/components@1.3.7...@pokedex/components@1.3.8) (2023-11-17)
+
+
+### Bug Fixes
+
+* responsive ness ([799f95c](https://github.com/erashu212/pokedex/commit/799f95c4b50b438b9b9fafdfe6b005ba6b6e7792))
+
+
+
+
+
 ## [1.3.7](https://github.com/erashu212/pokedex/compare/@pokedex/components@1.3.6...@pokedex/components@1.3.7) (2023-11-17)
 
 

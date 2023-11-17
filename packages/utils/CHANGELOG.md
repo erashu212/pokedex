@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.8](https://github.com/erashu212/pokedex/compare/@pokedex/utils@1.3.7...@pokedex/utils@1.3.8) (2023-11-17)
+
+**Note:** Version bump only for package @pokedex/utils
+
+
+
+
+
 ## [1.3.7](https://github.com/erashu212/pokedex/compare/@pokedex/utils@1.3.6...@pokedex/utils@1.3.7) (2023-11-17)
 
 
