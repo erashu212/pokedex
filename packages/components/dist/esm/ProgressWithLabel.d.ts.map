@@ -1,0 +1,1 @@
+{"version":3,"file":"ProgressWithLabel.d.ts","sourceRoot":"","sources":["../../lib/ProgressWithLabel.tsx"],"names":[],"mappings":"AAAA,OAAO,KAAK,KAAK,MAAM,OAAO,CAAC;AAC/B,OAAuB,EACrB,mBAAmB,EACpB,MAAM,8BAA8B,CAAC;AAItC,eAAO,MAAM,uBAAuB,EAAE,KAAK,CAAC,EAAE,CAC5C,mBAAmB,GAAG;IAAE,KAAK,EAAE,MAAM,CAAA;CAAE,CAcxC,CAAC"}
