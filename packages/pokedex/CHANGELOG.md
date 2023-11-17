@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.4](https://github.com/erashu212/pokedex/compare/@pokedex/pokedex@1.0.3...@pokedex/pokedex@1.0.4) (2023-11-17)
+
+
+### Bug Fixes
+
+* lerna publish ([6594b9c](https://github.com/erashu212/pokedex/commit/6594b9c579c88626d0fb8d67e4671c505e2ad4b7))
+
+
+
+
+
 ## [1.0.3](https://github.com/erashu212/pokedex/compare/@pokedex/pokedex@1.0.2...@pokedex/pokedex@1.0.3) (2023-11-17)
 
 
