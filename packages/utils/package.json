@@ -1,6 +1,6 @@
 {
   "name": "utils",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "",
   "keywords": [],
   "author": "Ashutosh <ashu.singh212@gmail.com>",
@@ -32,5 +32,5 @@
     "url": "https://github.com/erashu212/pokedex/issues"
   },
   "homepage": "https://github.com/erashu212/pokedex#readme",
-  "gitHead": "defad484a05c772953e0f3ba68118df4b9bcc4a3"
+  "gitHead": "8c4417a9beb5aaf101b8f8f94d4732526eeeb72a"
 }
