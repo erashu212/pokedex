@@ -17,9 +17,11 @@ const StackItem = styled(Paper)(({ theme }) => ({
 export const StackView: React.FC<StatViewProps> = (props) => {
   return (
     <MuiStack
-      direction={"row"}
-      divider={<Divider orientation="vertical" flexItem />}
-      spacing={2}
+      direction={{ xs: "column", sm: "row" }}
+      divider={
+        <Divider flexItem />
+      }
+      spacing={{ xs: 1, sm: 2 }}
     >
       {props.stackItems?.map(({ title, content }, idx) => {
         return (

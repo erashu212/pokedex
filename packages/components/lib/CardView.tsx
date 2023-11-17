@@ -29,7 +29,7 @@ export const CardView: React.FC<CardViewProps> = ({
           image={imageUrl}
         />
         <CardContent>
-          <Typography gutterBottom variant="h5" component="p">
+          <Typography align="center" gutterBottom variant="h3" component="p">
             {title}
           </Typography>
           {description}

@@ -37,7 +37,7 @@ const TabView = ({ tabs, activeTab, onTabChange, }) => {
         return tabs.find((t) => t.value === tab)?.content;
     };
     return (React.createElement(material_1.Box, null,
-        React.createElement(material_1.Tabs, { value: activeTab, centered: true, onChange: (e, value) => onTabChange(value) }, tabs.map((tab) => {
+        React.createElement(material_1.Tabs, { value: activeTab, onChange: (e, value) => onTabChange(value) }, tabs.map((tab) => {
             return React.createElement(material_1.Tab, { label: tab.label, value: tab.value, key: tab.value });
         })),
         React.createElement(material_1.Paper, { elevation: 0, sx: { my: 1, mx: 1 } }, getActiveTabContent(activeTab))));

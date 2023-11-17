@@ -23,5 +23,8 @@
     "lerna": "^7.4.2",
     "storybook": "^7.5.3",
     "typescript": "^5.2.2"
-  }
+  },
+  "version": "",
+  "readme": "ERROR: No README data found!",
+  "_id": "pokedex@"
 }

@@ -38,7 +38,7 @@ const CardView = ({ imageUrl, title, description, onClick, }) => {
         React.createElement(CardActionArea_1.default, { onClick: onClick },
             React.createElement(CardMedia_1.default, { sx: { objectFit: "contain" }, component: "img", alt: title, height: 150, image: imageUrl }),
             React.createElement(CardContent_1.default, null,
-                React.createElement(Typography_1.default, { gutterBottom: true, variant: "h5", component: "p" }, title),
+                React.createElement(Typography_1.default, { align: "center", gutterBottom: true, variant: "h3", component: "p" }, title),
                 description))));
 };
 exports.CardView = CardView;

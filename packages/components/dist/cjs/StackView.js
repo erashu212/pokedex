@@ -35,7 +35,7 @@ const StackItem = (0, styles_1.styled)(material_1.Paper)(({ theme }) => ({
     color: theme.palette.text.secondary,
 }));
 const StackView = (props) => {
-    return (React.createElement(material_1.Stack, { direction: "row", divider: React.createElement(material_1.Divider, { orientation: "vertical", flexItem: true }), spacing: 2 }, props.stackItems?.map(({ title, content }, idx) => {
+    return (React.createElement(material_1.Stack, { direction: { xs: "column", sm: "row" }, divider: React.createElement(material_1.Divider, { flexItem: true }), spacing: { xs: 1, sm: 2 } }, props.stackItems?.map(({ title, content }, idx) => {
         return (React.createElement(React.Fragment, { key: idx },
             React.createElement(StackItem, { elevation: 0 },
                 React.createElement(material_1.Typography, { variant: "subtitle1", gutterBottom: true }, title)),

@@ -9,7 +9,7 @@ export const CardView = ({ imageUrl, title, description, onClick, }) => {
         React.createElement(CardActionArea, { onClick: onClick },
             React.createElement(CardMedia, { sx: { objectFit: "contain" }, component: "img", alt: title, height: 150, image: imageUrl }),
             React.createElement(CardContent, null,
-                React.createElement(Typography, { gutterBottom: true, variant: "h5", component: "p" }, title),
+                React.createElement(Typography, { align: "center", gutterBottom: true, variant: "h3", component: "p" }, title),
                 description))));
 };
 //# sourceMappingURL=CardView.js.map

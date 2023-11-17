@@ -30,7 +30,6 @@ export const TabView: React.FC<TabViewProps> = ({
     <Box>
       <Tabs
         value={activeTab}
-        centered
         onChange={(e, value) => onTabChange(value)}
       >
         {tabs.map((tab) => {

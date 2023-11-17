@@ -11,7 +11,7 @@ export const TabView = ({ tabs, activeTab, onTabChange, }) => {
         return tabs.find((t) => t.value === tab)?.content;
     };
     return (React.createElement(Box, null,
-        React.createElement(Tabs, { value: activeTab, centered: true, onChange: (e, value) => onTabChange(value) }, tabs.map((tab) => {
+        React.createElement(Tabs, { value: activeTab, onChange: (e, value) => onTabChange(value) }, tabs.map((tab) => {
             return React.createElement(Tab, { label: tab.label, value: tab.value, key: tab.value });
         })),
         React.createElement(Paper, { elevation: 0, sx: { my: 1, mx: 1 } }, getActiveTabContent(activeTab))));
