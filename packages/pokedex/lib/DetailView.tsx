@@ -5,8 +5,6 @@ import {
   CardView,
   Typography,
   StackView,
-  Tabs,
-  Tab,
   TabView,
   TabType,
   Chip,

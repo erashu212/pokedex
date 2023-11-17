@@ -25,7 +25,7 @@ var __importStar = (this && this.__importStar) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.DetailView = void 0;
 const React = __importStar(require("react"));
-const components_1 = require("components");
+const components_1 = require("@pokedex/components");
 const colors = ["primary", "success", "info", "secondary", "warning", "error"];
 const DetailView = (props) => {
     const [activeTab, setActiveTab] = React.useState(components_1.TabType.Ability);

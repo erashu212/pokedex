@@ -1,5 +1,5 @@
 import * as React from "react";
-import { Box, Grid, CardView, Typography, StackView, TabView, TabType, Chip, } from "components";
+import { Box, Grid, CardView, Typography, StackView, TabView, TabType, Chip, } from "@pokedex/components";
 const colors = ["primary", "success", "info", "secondary", "warning", "error"];
 export const DetailView = (props) => {
     const [activeTab, setActiveTab] = React.useState(TabType.Ability);
