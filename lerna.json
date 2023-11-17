@@ -3,5 +3,12 @@
   "packages": [
     "packages/*"
   ],
-  "npmClient": "npm"
+  "version": "independent",
+  "npmClient": "npm",
+  "command": {
+    "version": {
+      "allowBranch": "main",
+      "conventionalCommits": true
+    }
+  }
 }
