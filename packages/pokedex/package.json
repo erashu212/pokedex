@@ -1,6 +1,6 @@
 {
   "name": "@pokedex/pokedex",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "description": "",
   "keywords": [],
   "author": "Ashutosh <ashu.singh212@gmail.com>",
@@ -33,8 +33,8 @@
   },
   "homepage": "https://github.com/erashu212/pokedex#readme",
   "dependencies": {
-    "@pokedex/components": "^1.1.1",
-    "@pokedex/utils": "^1.1.1"
+    "@pokedex/components": "^1.2.0",
+    "@pokedex/utils": "^1.2.0"
   },
   "gitHead": "fe3b2cac9c95fe0d631a7fec4ec3931ac8b244d0"
 }

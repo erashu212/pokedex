@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.2.0](https://github.com/erashu212/pokedex/compare/@pokedex/pokedex@1.0.5...@pokedex/pokedex@1.2.0) (2023-11-17)
+
+
+### Bug Fixes
+
+* completed config ([7977fc7](https://github.com/erashu212/pokedex/commit/7977fc7e1cf0efce8fd1da875e31c0522002792b))
+
+
+### Features
+
+* dist files ([b1ad61a](https://github.com/erashu212/pokedex/commit/b1ad61ac710aabf904b68e89671e6aa0c74fd410))
+
+
+
+
+
 ## [1.1.1](https://github.com/erashu212/pokedex/compare/pokedex@1.1.0...pokedex@1.1.1) (2023-11-17)
 
 **Note:** Version bump only for package pokedex
