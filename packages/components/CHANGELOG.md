@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.2](https://github.com/erashu212/pokedex/compare/@pokedex/components@1.2.0...@pokedex/components@1.3.2) (2023-11-17)
+
+
+### Bug Fixes
+
+* config ([b775f35](https://github.com/erashu212/pokedex/commit/b775f35529a951783aac7a179f92de8cd4d8b488))
+* config ([8346e61](https://github.com/erashu212/pokedex/commit/8346e61b5d6555c1868cc535d72fd4f5ec513cd3))
+
+
+
+
+
 ## [1.3.1](https://github.com/erashu212/pokedex/compare/pokedex-components@1.3.0...pokedex-components@1.3.1) (2023-11-17)
 
 **Note:** Version bump only for package pokedex-components
