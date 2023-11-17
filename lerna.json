@@ -1,14 +1,28 @@
 {
   "$schema": "node_modules/lerna/schemas/lerna-schema.json",
-  "packages": [
-    "packages/*"
-  ],
+  "packages": ["packages/*"],
   "version": "independent",
   "npmClient": "npm",
   "command": {
     "version": {
       "allowBranch": "main",
       "conventionalCommits": true
+    },
+    "publish": {
+      "directory": "{workspaceRoot}/dist/{projectRoot}",
+      "assets": [
+        "README.md",
+        "package.json",
+        "docs/*.md",
+        {
+          "from": "static/images/*",
+          "to": "assets"
+        },
+        {
+          "from": "../../CONTRIBUTING.md",
+          "to": "./"
+        }
+      ]
     }
   }
 }
