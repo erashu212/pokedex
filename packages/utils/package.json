@@ -1,5 +1,5 @@
 {
-  "name": "@pokedex/utils",
+  "name": "utils",
   "version": "1.0.5",
   "description": "",
   "keywords": [],
@@ -7,7 +7,7 @@
   "license": "ISC",
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.js",
-  "typings": "dist/cjs/index.d.ts",
+  "typings": "dist/types/index.d.ts",
   "exports": {
     ".": {
       "import": "./dist/esm/index.js",
@@ -31,5 +31,6 @@
   "bugs": {
     "url": "https://github.com/erashu212/pokedex/issues"
   },
-  "homepage": "https://github.com/erashu212/pokedex#readme"
+  "homepage": "https://github.com/erashu212/pokedex#readme",
+  "gitHead": "defad484a05c772953e0f3ba68118df4b9bcc4a3"
 }

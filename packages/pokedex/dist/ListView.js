@@ -25,7 +25,7 @@ var __importStar = (this && this.__importStar) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.ListView = void 0;
 const React = __importStar(require("react"));
-const components_1 = require("@pokedex/components");
+const components_1 = require("components");
 const ListView = (props) => {
     return (React.createElement(components_1.DataGrid, { ...props }));
 };
